@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body onload = "newGame()" ></body>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="./funcgame.js"></script>
+    </head>
+    <body>
+        <div class="view">
+            <div class="container">
+                <div class="start">
+                    <button class="button button1" onclick="newGame()">Start</button>
+                    <div id="movesm">You made 0 moves</div>
+                    <div id="result">Game in progress...</div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="button button2" id='bilde1' onclick="showCard(1)">?</button>
+                            <button class="button button2" id='bilde2' onclick="showCard(2)">?</button>
+                            <button class="button button2" id='bilde3' onclick="showCard(3)">?</button>
+                            <button class="button button2" id='bilde4' onclick="showCard(4)">?</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="button button2" id='bilde5' onclick="showCard(5)">?</button>
+                            <button class="button button2" id='bilde6' onclick="showCard(6)">?</button>
+                            <button class="button button2" id='bilde7' onclick="showCard(7)">?</button>
+                            <button class="button button2" id='bilde8' onclick="showCard(8)">?</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="button button2" id='bilde9' onclick="showCard(9)">?</button>
+                            <button class="button button2" id='bilde10' onclick="showCard(10)">?</button>
+                            <button class="button button2" id='bilde11' onclick="showCard(11)">?</button>
+                            <button class="button button2" id='bilde12' onclick="showCard(12)">?</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="button button2" id='bilde13' onclick="showCard(13)">?</button>
+                            <button class="button button2" id='bilde14' onclick="showCard(14)">?</button>
+                            <button class="button button2" id='bilde15' onclick="showCard(15)">?</button>
+                            <button class="button button2" id='bilde16' onclick="showCard(16)">?</button>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </body>
+</html>
