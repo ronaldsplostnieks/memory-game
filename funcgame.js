@@ -1,5 +1,5 @@
 let cardShuffel = ['<span>🥔</span>', '<span>🍒</span>', '<span>🥑</span>', '<span>🌽</span>', '<span>🥕</span>', '<span>🍇</span>', '<span>🍉</span>', '<span>🍌</span>','<span>🥔</span>', '<span>🍒</span>', '<span>🥑</span>', '<span>🌽</span>', '<span>🥕</span>', '<span>🍇</span>', '<span>🍉</span>', '<span>🍌</span>']
-const winSound = new Audio("sounds/winningSound.mp3");  // audio priekš uzvarēšanas
+const winSound = new Audio("winningSound.mp3");  // audio priekš uzvarēšanas
 let stats = 0;       // nosaka cik kārtis apgrieztas noteiktajā brīdī
 let firstCard = 0;   // saglabā pirmās apgrieztās pogas numuru 
 let moves = 0;       // saglab.ā cik pogas pagrieztas
